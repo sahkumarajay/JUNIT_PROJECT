@@ -5,6 +5,7 @@ public class EMP {
 	private String name ;
 	private String roll ;
 	private String id ;
+	private String city;
 	public String getName() {
 		return name;
 	}
@@ -22,6 +23,12 @@ public class EMP {
 	}
 	public void setId(String id) {
 		this.id = id;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
 	}
 	
 	
